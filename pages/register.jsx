@@ -1,9 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 const register = () => {
   return (
     <main>
+      <Head>
+        <title>noAppChat|Register</title>
+      </Head>
       <div className="mt-5">
         <Image
           className="mx-auto"
